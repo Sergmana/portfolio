@@ -5,28 +5,50 @@
 	<title>Home Page</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<header>
 		<div class="logo">
 			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
 		</div>
-		<nav>
-			<div class="topnav" id="myTopnav">
-				<a href="index.html">HOME</a>
-				<a href="projects.html">PROJECTS</a>
-				<a href="blog.html">BLOG</a>
-				<a href="contact.html">CONTACT</a>
-				<a href="about.html">ABOUT</a>
-				<a href="services.html">SERVICES</a>
-				<a href="location.html">LOCATION</a>
-				<a id="menu" href ="#" class="icon">&#9776;</a>
-			</div>
-		</nav>
+
 	</header>
+	<div id="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+	<div class="parallax1"></div>
+	<h1>Helloworld</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique et ipsum posuere sodales. Ut venenatis dui non dolor semper, ut vulputate justo porta. Cras eget arcu semper magna condimentum auctor. Donec vel dolor eget lorem semper hendrerit. Vestibulum augue diam, imperdiet sit amet risus in, accumsan facilisis neque. Sed scelerisque urna a ex tristique pellentesque. Sed justo quam, pellentesque sed aliquet sed, fringilla vitae nisi. Cras sed velit suscipit, ultricies justo id, auctor turpis.
+
+Maecenas porttitor iaculis nunc. In ut volutpat ante, vitae pretium leo. Aliquam pretium ligula justo, non aliquet mauris interdum eget. Nam eget dui arcu. Phasellus at vehicula lorem, feugiat convallis metus. Pellentesque eu ante nec tortor maximus euismod lacinia vel orci. Maecenas ut erat sed quam scelerisque dignissim. Sed at egestas ipsum, non aliquet nisi. Vestibulum iaculis, ipsum at aliquam sodales, odio elit dictum erat, nec pretium orci felis nec nunc. Etiam sit amet venenatis ex. Curabitur quis tortor volutpat, ullamcorper metus in, suscipit risus. Sed tortor est, condimentum at venenatis vel, tempor at dui. Donec ac tortor vitae risus tincidunt vehicula sed eget mauris.
+</p>
+	<div class="parallax2"></div>
+		<h1>Helloworld</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique et ipsum posuere sodales. Ut venenatis dui non dolor semper, ut vulputate justo porta. Cras eget arcu semper magna condimentum auctor. Donec vel dolor eget lorem semper hendrerit. Vestibulum augue diam, imperdiet sit amet risus in, accumsan facilisis neque. Sed scelerisque urna a ex tristique pellentesque. Sed justo quam, pellentesque sed aliquet sed, fringilla vitae nisi. Cras sed velit suscipit, ultricies justo id, auctor turpis.
+
+Maecenas porttitor iaculis nunc. In ut volutpat ante, vitae pretium leo. Aliquam pretium ligula justo, non aliquet mauris interdum eget. Nam eget dui arcu. Phasellus at vehicula lorem, feugiat convallis metus. Pellentesque eu ante nec tortor maximus euismod lacinia vel orci. Maecenas ut erat sed quam scelerisque dignissim. Sed at egestas ipsum, non aliquet nisi. Vestibulum iaculis, ipsum at aliquam sodales, odio elit dictum erat, nec pretium orci felis nec nunc. Etiam sit amet venenatis ex. Curabitur quis tortor volutpat, ullamcorper metus in, suscipit risus. Sed tortor est, condimentum at venenatis vel, tempor at dui. Donec ac tortor vitae risus tincidunt vehicula sed eget mauris.
+</p>
+	<div class="parallax3"></div>	
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 
 
 
-	<script src="js/script.js"></script>
 </body>
 </html>
