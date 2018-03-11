@@ -251,10 +251,14 @@ display: flex;
         background-attachment: scroll;
     }
 }
+@media only screen and (max-device-width: 500px){
+  .parallax1{
+    height: 900px;
+  }
 }
-}
-}
-}
+
+
+
 
 /* Slideshow container */
 .slideshow-container {
