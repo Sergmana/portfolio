@@ -229,7 +229,24 @@ h2{
     .hero{ top: -40%; 
     }
 }
-
+@media only screen and (max-device-width: 780px) {
+    .parallax1 {
+        background-attachment: scroll;
+    }    .parallax2 {
+        background-attachment: scroll;
+    }    .parallax3 {
+        background-attachment: scroll;
+    }    .parallax4 {
+        background-attachment: scroll;
+    }
+        .parallax5 {
+        background-attachment: scroll;
+    }
+}
+}
+}
+}
+}
 
 /* Slideshow container */
 .slideshow-container {
