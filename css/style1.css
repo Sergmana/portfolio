@@ -332,6 +332,12 @@ display: flex;
         .parallax5 {
         background-attachment: scroll;
     }
+    .parallax6 {
+        background-attachment: scroll;
+    }
+    .parallax7 {
+        background-attachment: scroll;
+    }
 }
 @media only screen and (max-device-width: 500px){
   .parallax1{
